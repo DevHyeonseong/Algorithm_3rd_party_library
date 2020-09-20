@@ -31,8 +31,8 @@ public class Combination {
             arr[i] = i;
         }
 
-        for(int i=start;i<=end;i++){
-            makeCombination(arr, visit, 0, n, i, i);
+        for(int r=start;r<=end;r++){
+            makeCombination(arr, visit, 0, n, r, r);
         }
     }
 
